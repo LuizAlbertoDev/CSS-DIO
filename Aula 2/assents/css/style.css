@@ -1,13 +1,15 @@
-*{
-    font-weight: bold;
+[title="netflix"] {
+    color: red;
 }
 
-
-.seletores-mais-comuns {
-     background: blue;
-     color: white;
+[title="spotify"] {
+    color: green;
 }
 
-.texto-maiusculo {
-    text-transform: uppercase;
+[title="prime"] {
+    color: blue;
+}
+
+[title~=streaming] {
+    background: grey;
 }
