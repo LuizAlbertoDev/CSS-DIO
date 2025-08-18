@@ -73,13 +73,25 @@ section {
   color: #31A8DD;
   font-size: 1rem;
   font-weight: bold;
-  padding: 16px 32px;
+  padding: 1rem 2rem;
   text-transform: uppercase;
   letter-spacing: 4px;
   background-color: transparent;
   border-image: linear-gradient(#3BA1CD, #1572B7);
   border-image-slice: 10;
-  border-radius: 30px;
+}
+
+.banner .banner-content button:hover {
+  background-color:  #3BA1CD;
+  transition: background-color 1s ease-in-out;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.btn:visited {
+  color: #1572B7;
 }
 
 #course-content {
