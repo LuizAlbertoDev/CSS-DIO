@@ -1,0 +1,37 @@
+
+body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,300px);
+    grid-template-areas: 
+    "header header header header" 
+    "main main . asidebar"
+    "footer footer footer footer"
+    ;
+}
+
+header {
+    background-color: lightsalmon;
+    grid-area: header;
+}
+
+main {
+    background-color: lightcoral;
+    grid-area: main;
+}
+
+aside {
+    background-color: lightblue;
+    grid-area: asidebar;
+}
+
+footer {
+    background-color: lightgreen;
+    grid-area: footer;
+}
+
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

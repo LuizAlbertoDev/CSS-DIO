@@ -1,0 +1,36 @@
+
+body{
+    display: grid;
+    grid-template: 
+    "header header header header" 100px
+    "main main . asidebar" 300px
+    "footer footer footer footer" 100px
+    /1fr 1fr 1fr 1fr
+    ;
+}
+
+header {
+    background-color: lightsalmon;
+    grid-area: header;
+}
+
+main {
+    background-color: lightcoral;
+    grid-area: main;
+}
+
+aside {
+    background-color: lightblue;
+    grid-area: asidebar;
+}
+
+footer {
+    background-color: lightgreen;
+    grid-area: footer;
+}
+
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
